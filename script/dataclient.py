@@ -14,6 +14,7 @@ HOST = "mipt-client.atp-fivt.org"
 
 
 def run_docker(command: str, echo: bool = True):
+
     if echo:
         print(f" docker > {command}")
 
